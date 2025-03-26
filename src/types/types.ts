@@ -16,4 +16,17 @@ export interface resumeInfo{
         currentlyWorking:boolean
         workSummary:string;
     }]
+    education:[{
+        universityName:string
+        degree:string
+        major:string
+        startDate:string
+        endDate:string
+        
+    }]
+    skills:[
+        {
+            name:string
+        }
+    ]
 }

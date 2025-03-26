@@ -41,7 +41,7 @@ export default{
     education:[
         {
             id:1,
-            universityName:'Western Illinois University',
+            universityName:'LJ University',
             startDate:'Aug 2018',
             endDate:'Dec:2019',
             degree:'Master',
@@ -77,6 +77,26 @@ export default{
         {
             id:1,
             name:'React Native',
+            rating:100,
+        },
+        {
+            id:1,
+            name:'Data Science',
+            rating:80,
+        },
+        {
+            id:1,
+            name:'Python',
+            rating:100,
+        },
+        {
+            id:1,
+            name:'DBMS',
+            rating:80,
+        },
+        {
+            id:1,
+            name:'DSA',
             rating:100,
         }
     ]

@@ -1,10 +1,11 @@
 import { ResumeInfoContext } from '@/context/ResumeInfoContext'
 import React, { useContext } from 'react'
 import PersonalPreview from './Preview/PersonalPreview'
-import { resumeInfo } from '@/types/types'
+
 import SummaryPreview from './Preview/SummaryPreview'
 import ExperiencePreview from './Preview/ExperiencePreview'
 import EducationPreview from './Preview/EducationPreview'
+import SkillPreview from './Preview/SkillPreview'
 
 const ResumePreview = () => {
 
@@ -20,6 +21,7 @@ const ResumePreview = () => {
       {/* Education  */}
       <EducationPreview resumeInfo={resumeInfo}/>
       {/* Skills  */}
+      <SkillPreview resumeInfo={resumeInfo}/>
     </div>
   )
 }
